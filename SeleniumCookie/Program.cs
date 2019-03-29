@@ -11,7 +11,10 @@ namespace SeleniumCookie
          *   -- Selenium.WebDriver
          *   -- Selenium.WebDriverBackedSelenium
          *   -- Selenium.WebDriver.IEDriver（一般的网站推荐这个，如果网站不兼容IE，则采用Firefox,Chrome）
-         *   -- // Selenium.WebDriver.XXDriver (支持IE,Chrome,Firefox...，选择对应的驱动即可)
+         *   -- // Selenium.WebDriver.XXDriver (支持IE,Chrome,Firefox...，选择对应的驱动即可. 如果是chrome，要注意chrome的版本与驱动的版本搭配)
+         *
+         *  根据项目经验，推荐使用chrome驱动，因为ie浏览器不太稳定。
+         *
          */
         static void Main(string[] args)
         {
